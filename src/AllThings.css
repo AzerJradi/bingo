@@ -1,0 +1,93 @@
+:root{
+    --BG: #283739;
+    --green: #7dd87d;
+}
+*{
+    background: var(--BG);
+    color: white;
+}
+.listOfGame-Title{
+    margin-top: 25px;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.listOfGame-Games{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.listOfGameTitle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.listOfGameBtn{
+    background-color: var(--green);
+    border-radius: 4px;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20%;
+    text-decoration: underline 1.5px var(--green);
+}
+.imaaaage{
+    width: 150px;
+    height: 150px;
+    border-radius: 2px;
+    margin: 10px 1px;
+    object-fit:contain;
+
+}
+.cardddd{
+    margin: 5% 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 10px solid black;
+    
+}
+.titreeeee{
+    display: flex;
+    justify-content: center;
+}
+.smallCard{
+    background: white;
+}
+h6{
+    font-size: 36px;
+    margin-left: 25%;
+}
+.btnnnn{
+    width: 100px;
+    display: block;
+    margin-top: -130px;
+}
+.btnn{
+    background: transparent;
+    border: transparent;
+    margin-left: 69%;
+}
+.choosePlayer{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+    height: 250px;
+    border: 5px white solid;
+}
+h4{
+    margin-left: 82.5%;
+    position: relative;
+    top: 130px;
+    width: 15%;
+}
+.imaaaage{
+    object-fit: contain;
+    background: white;
+}
+.btn{
+    border: black 2px solid;
+    background: white;
+}

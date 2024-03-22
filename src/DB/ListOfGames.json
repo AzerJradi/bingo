@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1 ,
+        "titleOfGame": "Bingo",
+        "desGame": "Football Bingo challenges players to match randomly appearing footballers to one of the 16 categories on a bingo card until either the card is completed or all footballers are exhausted."
+    },
+    {
+        "id": 2 ,
+        "titleOfGame": "X O",
+        "desGame": "X O: a football-themed tic-tac-toe game to play with friends locally or online, featuring grids based on football clubs, nations, trophies, and awards; challenge opponents worldwide or play against the clock; choose from European leagues or specific divisions; use steals for added challenge."
+    }
+]
