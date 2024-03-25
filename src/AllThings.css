@@ -57,13 +57,18 @@
     background: white;
 }
 h6{
-    font-size: 36px;
-    margin-left: 25%;
+    font-size: 42px;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: -30px;
+    letter-spacing: 5px;
+    margin-left: 10%;
 }
-.btnnnn{
+.btnnnnn{
     width: 100px;
     display: block;
-    margin-top: -130px;
+    margin-top: -80px;
 }
 .btnn{
     background: transparent;
@@ -80,7 +85,7 @@ h6{
 h4{
     margin-left: 82.5%;
     position: relative;
-    top: 130px;
+    top: 70px;
     width: 15%;
 }
 .imaaaage{
@@ -90,4 +95,8 @@ h4{
 .btn{
     border: black 2px solid;
     background: white;
+}
+h3{
+    margin-left: 72%;
+    margin-top: 25px;
 }

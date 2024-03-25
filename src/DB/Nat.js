@@ -6,8 +6,8 @@ const nat = [
     },
     {
         "id": Math.random(),
-        "Name": "Argentina",
-        "image": "https://i.pinimg.com/564x/40/a2/12/40a21243a2017e3846d7d4d8750cd6ba.jpg",
+        "Name": "argentina",
+        "image": "https://i.pinimg.com/736x/b3/f4/a6/b3f4a6dc5e980245ac83d9b7465e2c97.jpg",
     },
     {
         "id": Math.random(),

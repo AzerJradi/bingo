@@ -5,7 +5,7 @@ const players = [
         "Name": "Lionel Messi",
         "Player_name": "Lionel Messi",
         "teams": ["Fc Barcelona","Psg","InterMiami"],
-        "nationalite": "Argentina",
+        "nationalite": "argentina",
         "skips": 50 ,
         "ballon-Dor": true,
         "worldCup": true,
@@ -65,7 +65,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"https://i.pinimg.com/564x/c2/9d/60/c29d602d4cff098695a5833b4372cd36.jpg",
-        "Name": "Cryuff",
+        "Player_name": "Cryuff",
         "teams": ["Fc Barcelona","Ajax"],
         "nationalite": "Netherland",
         "skips": 50 ,
@@ -85,7 +85,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"https://i.pinimg.com/564x/67/45/51/67455117657cf22e7366575edf77a97a.jpg",
-        "Name": "Ederson",
+        "Player_name": "Ederson",
         "teams": ["man city","benfica"],
         "nationalite": "Brazil",
         "skips": 50 ,
@@ -105,7 +105,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"https://i.pinimg.com/564x/57/23/c1/5723c16237c67781ae277902ebb5554f.jpg",
-        "Name": "De Bryune",
+        "Player_name": "De Bryune",
         "teams": ["man city","chelsea"],
         "nationalite": "belguim",
         "skips": 50 ,
@@ -125,7 +125,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"https://i.pinimg.com/564x/26/a0/7a/26a07ae26f22b40de2c7807b54275e4d.jpg",
-        "Name": "Walker",
+        "Player_name": "Walker",
         "teams": ["man city","tottenham"],
         "nationalite": "england",
         "skips": 50 ,
@@ -145,7 +145,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"https://i.pinimg.com/564x/ec/98/5e/ec985eeba4983792c3c6644178aab2f3.jpg",
-        "Name": "Bernardo Silva",
+        "Player_name": "Bernardo Silva",
         "teams": ["man city","benfica"],
         "nationalite": "portugal",
         "skips": 50 ,
@@ -165,7 +165,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "sterling",
+        "Player_name": "sterling",
         "teams": ["man city","liverpool","chelsea"],
         "nationalite": "england",
         "skips": 50 ,
@@ -185,7 +185,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "gundogan",
+        "Player_name": "gundogan",
         "teams": ["man city","bvb","Fc Barcelona"],
         "nationalite": "germany",
         "skips": 50 ,
@@ -205,7 +205,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "rodri",
+        "Player_name": "rodri",
         "teams": ["man city","athletico madrid"],
         "nationalite": "spain",
         "skips": 50 ,
@@ -225,7 +225,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "John Stones",
+        "Player_name": "John Stones",
         "teams": ["england","everton"],
         "nationalite": "england",
         "skips": 50 ,
@@ -245,7 +245,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Fernandinho",
+        "Player_name": "Fernandinho",
         "teams": "man city",
         "nationalite": "Brazil",
         "skips": 50 ,
@@ -265,7 +265,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Victor Valdes",
+        "Player_name": "Victor Valdes",
         "teams": ["Fc Barcelona","man united"],
         "nationalite": "spain",
         "skips": 50 ,
@@ -285,7 +285,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Dani Alves",
+        "Player_name": "Dani Alves",
         "teams": ["Fc Barcelona","juventus","psg","seville"],
         "nationalite": "Brazil",
         "skips": 50 ,
@@ -305,7 +305,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Xavi",
+        "Player_name": "Xavi",
         "teams": "Fc Barcelona",
         "nationalite": "spain",
         "skips": 50 ,
@@ -325,7 +325,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Foden",
+        "Player_name": "Foden",
         "teams": "man city",
         "nationalite": "england",
         "skips": 50 ,
@@ -345,7 +345,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Mahrez",
+        "Player_name": "Mahrez",
         "teams": ["man city","Leicester","Al Ahli"],
         "nationalite": "algeria",
         "skips": 50 ,
@@ -365,7 +365,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Pique",
+        "Player_name": "Pique",
         "teams": ["Fc Barcelona","man united"],
         "nationalite": "spain",
         "skips": 50 ,
@@ -385,7 +385,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Laporte",
+        "Player_name": "Laporte",
         "teams": ["man city","Al nassr","Bilbao"],
         "nationalite": "spain",
         "skips": 50 ,
@@ -405,7 +405,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Gabriel Jesus",
+        "Player_name": "Gabriel Jesus",
         "teams": ["man city","arsenal"],
         "nationalite": "Brazil",
         "skips": 50 ,
@@ -425,7 +425,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Busquets",
+        "Player_name": "Busquets",
         "teams": ["Fc Barcelona","InterMiami"],
         "nationalite": "spain",
         "skips": 50 ,
@@ -445,7 +445,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Neuer",
+        "Player_name": "Neuer",
         "teams": ["bayern","Schalke"],
         "nationalite": "germany",
         "skips": 50 ,
@@ -465,7 +465,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Ruben Dias",
+        "Player_name": "Ruben Dias",
         "teams": ["man city","benfica"],
         "nationalite": "portugal",
         "skips": 50 ,
@@ -485,7 +485,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Puyol",
+        "Player_name": "Puyol",
         "teams": "Fc Barcelona",
         "nationalite": "spain",
         "skips": 50 ,
@@ -505,7 +505,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Iniesta",
+        "Player_name": "Iniesta",
         "teams": "Fc Barcelona",
         "nationalite": "spain",
         "skips": 50 ,
@@ -525,7 +525,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Otamendi",
+        "Player_name": "Otamendi",
         "teams": ["man city","benfica","valencia","porto"],
         "nationalite": "argentina",
         "skips": 50 ,
@@ -545,7 +545,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "David Silva",
+        "Player_name": "David Silva",
         "teams": ["man city","sosciedad","valencia"],
         "nationalite": "spain",
         "skips": 50 ,
@@ -565,7 +565,7 @@ const players = [
     {
         "id": parseInt(Math.random()) ,
         "image":"",
-        "Name": "Aguero",
+        "Player_name": "Aguero",
         "teams": ["man city","Fc Barcelona","athletico madrid"],
         "nationalite": "argentina",
         "skips": 50 ,

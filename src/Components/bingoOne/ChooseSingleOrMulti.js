@@ -1,5 +1,5 @@
 import React from "react";
-import '../AllThings.css'
+import '../../AllThings.css'
 import { Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 

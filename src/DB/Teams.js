@@ -42,7 +42,7 @@ const teams= [
     {
         "id": Math.random() ,
         "Name": "Chelsea",
-        "image": "../imagessssss/teams/cheslsea.jpg"
+        "image": "https://i.pinimg.com/564x/44/17/7a/44177a0cb8f73f4781a08bd7b400ca74.jpg"
     },
     {
         "id": Math.random() ,
@@ -117,7 +117,7 @@ const teams= [
     {
         "id": Math.random() ,
         "Name": "Al Ahli",
-        "image": "https://i.pinimg.com/564x/2c/e6/ff/2ce6ff4fd5f4534cb3f04437f9405c4c.jpg"
+        "image": "https://i.pinimg.com/736x/ee/32/bf/ee32bf991dd7aaca5ae1c0fd0265e2f7.jpg"
     },
     {
         "id": Math.random() ,

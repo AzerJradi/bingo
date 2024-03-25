@@ -1,5 +1,5 @@
 import React from 'react'
-import '../AllThings.css'
+import '../../AllThings.css'
 
 function SinglePlayer() {
   return (

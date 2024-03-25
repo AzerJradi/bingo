@@ -1,5 +1,5 @@
 import React from "react";
-import '../AllThings.css';
+import '../../AllThings.css'
 import OneCard from "./OneCard";
 
 function ListOfCards({game,pep,players,teams,nat,Klopp}) {
