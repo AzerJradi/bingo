@@ -46,6 +46,7 @@ function OneCard({ game, pep, players, teams, nat, Klopp }) {
       setSelectedPlayerIndex(randomIndex);
       setSelectedPlayer(players[randomIndex]);
     }
+
   };
   var points = greenCardCount - redCardCount
 const handleCardClick = (index) => {
@@ -64,11 +65,6 @@ const handleCardClick = (index) => {
     document.getElementById(`card_${index}`).style.backgroundColor = 'red';
   }
 
-  if (selectedPlayer.managedByPep && selectedCards[index].Name !== selectedPlayer.managedByKlop) {
-    console.log('Player pep matched!');
-    document.getElementById(`card_${index}`).style.backgroundColor = 'red';
-  }
-
   if (selectedCards[index].Name === selectedPlayer.nationalite) {
     console.log('Player nationality matched!');
     document.getElementById(`card_${index}`).style.backgroundColor = 'green';
@@ -79,10 +75,11 @@ const handleCardClick = (index) => {
     document.getElementById(`card_${index}`).style.backgroundColor = 'green';
   }
 
-  if (selectedPlayer.managedByPep && selectedCards[index].Name === selectedPlayer.managedByKlop) {
-    console.log('Player pep matched!');
+  if ((selectedPlayer.Player_name).includes(Klopp.players)) {
+    console.log('Player Klopp matched!');
     document.getElementById(`card_${index}`).style.backgroundColor = 'green';
-  }
+}
+
   if (selectedCards[index].Name === selectedPlayer.nationalite || selectedPlayer.teams.includes(selectedCards[index].Name)) {
     points += 1;
     setGreenCardCount(greenCardCount + 1);
@@ -90,42 +87,43 @@ const handleCardClick = (index) => {
     points -= 1;
     setRedCardCount(redCardCount + 1);
   }
-  
-
 };
-
-console.log("green:",greenCardCount)
-console.log("red:",redCardCount)
-console.log(selectedCards)
-  // JSX to render component
-  return (
-    <>
-      <div className='choosePlayer'>
-        <h3>points: {points}</h3>
-        <h4>Remaining Skips: {remainingSkips}</h4>
-        <h6>{selectedPlayer?.Player_name}</h6>
-        {/* Skip button */}
-        <button className='btnn' onClick={handleSkip}>
-          <img src='https://cdn4.iconfinder.com/data/icons/remixicon-media/24/skip-back-fill-256.png' className='btnnnnn' alt=''/>
-        </button>
+console.log(selectedPlayer)
+return (
+  <>
+    {remainingSkips > 0 && (
+      <>
+        <div className='choosePlayer'>
+          <h4>Remaining Skips: {remainingSkips}</h4>
+          <h6>{selectedPlayer?.Player_name}</h6>
+          <button className='btnn' onClick={handleSkip}>
+            <img src='https://cdn4.iconfinder.com/data/icons/remixicon-media/24/skip-back-fill-256.png' className='btnnnnn' alt=''/>
+          </button>
+        </div>
+        <div className='cardddd'>
+          {selectedCards.map((theCard, index) => (
+            <div key={index} id={`card_${index}`} className={`smallCard ${index === selectedPlayerIndex ? 'active' : ''}`}>
+              <button className="btn" onClick={() => handleCardClick(index)}>
+                <img src={theCard.image} alt='' className='imaaaage' />
+                <p className='titreeeee'>{theCard.Name}</p>
+              </button>
+            </div>
+          ))}
+        </div>
+      </>
+    )}
+    {remainingSkips === 0 &&(
+      <div className='lastCard'>
+        <p className='matchOver'>Match Over</p>
+        <p className='points'>points: {points}</p>
+        <p className="good">Great Answer: {greenCardCount} </p>
+        <p className="bad">Bad Answer: {redCardCount} </p>
       </div>
-      {/* Render cards */}
-      <div className='cardddd'>
-  {selectedCards.map((theCard, index) => (
-    <div key={index} id={`card_${index}`} className={`smallCard ${index === selectedPlayerIndex ? 'active' : ''}`}>
-      {/* Card component */}
-      <button className="btn" onClick={() => handleCardClick(index)}>
-        <img src={theCard.image} alt='' className='imaaaage' />
-        <p className='titreeeee'>{theCard.Name}</p>
-      </button>
-    </div>
-  ))}
-</div>
+    )}
+  </>
+);
 
-    </>
-  );
 }
-
 export default OneCard;
 
 

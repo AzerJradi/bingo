@@ -96,7 +96,33 @@ h4{
     border: black 2px solid;
     background: white;
 }
-h3{
-    margin-left: 72%;
-    margin-top: 25px;
+.lastCard{
+    background: white;
+    width: 30%;
+    height: 400px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.matchOver{
+    background: white;
+    color: black;
+}
+.points{
+    background: white;
+    color: black;
+}
+.good{
+    background: white;
+    color: green;
+}
+.bad{
+    background: white;
+    color: red;
 }

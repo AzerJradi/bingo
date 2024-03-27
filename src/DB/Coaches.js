@@ -9,6 +9,6 @@ export const Klopp =[
     {
         "image": "https://i.pinimg.com/originals/af/d4/3b/afd43b694fec59017e8304e663b90ced.png",
         "Name": "managedByKlop",
-        "players": ["Mohammed Salah","Roberto Firmino","Trent-Alexandre-Arnold","Andrew Robertson","Alisson","Vergil Van Dijk","Jordan Henderson","Sadio Mane","Mats Hummels","Wijnaldum","James Milner","Fabinho","Joe Matip","Piszczek","Lewandowski","Joe Gomez","Lovren","Marco Reus","Emre Can","gundogan","Diego Jota","Mario Gotze","Mkhitaryan","Alex Oxlade-Chamberlain","Philippe Coutinho","Thiago Alcantara","Naby Keita","Aubameyang","Ibrahima Konate","Sokratis","Luis Diaz","Elliot","Darwin Nunez","Sturridge","Gakpo","Shaquiri","Sakho","Perisic","Minamino","Szoboszlai","Mac Allister","Benteke","Ciro Immobile","Gravenberch"]
+        "players": ["Mohammed Salah","Roberto Firmino","Trent-Alexandre-Arnold","Andrew Robertson","Alisson","Vergil Van Dijk","Jordan Henderson","Sadio Mane","Mats Hummels","Wijnaldum","James Milner","Fabinho","Joe Matip","Piszczek","Lewandowski","Joe Gomez","Lovren","Marco Reus","Emre Can","gundogan","Diego Jota","Mario Gotze","Mkhitaryan","Alex Oxlade-Chamberlain","Philippe Coutinho","Thiago Alcantara","Naby Keita","Aubameyang","Ibrahima Konate","Sokratis","Luis Diaz","Elliot","Darwin Nunez","Sturridge","Gakpo","Shaquiri","Sakho","Perisic","Minamino","Szoboszlai","Mac Allister","Benteke","Ciro Immobile"]
     }
 ]
