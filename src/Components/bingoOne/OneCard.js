@@ -102,8 +102,8 @@ return (
         </div>
         <div className='cardddd'>
           {selectedCards.map((theCard, index) => (
-            <div key={index} id={`card_${index}`} className={`smallCard ${index === selectedPlayerIndex ? 'active' : ''}`}>
-              <button className="btn" onClick={() => handleCardClick(index)}>
+            <div key={index}  className={`smallCard ${index === selectedPlayerIndex ? 'active' : ''}`}>
+              <button id={`card_${index}`} className="btn" onClick={() => handleCardClick(index)}>
                 <img src={theCard.image} alt='' className='imaaaage' />
                 <p className='titreeeee'>{theCard.Name}</p>
               </button>
